@@ -2,7 +2,7 @@ probe run
 x discovery
 - sfdq
 x nucleof
-- nucleol
+? nucleol - won't flash
 - arduino
 
 board crate for sfdq
@@ -28,5 +28,6 @@ nucleo-64 446ret6u
 
 nucleo-64L476rgt6u
 - STM32L476RGTx
-- stm32l4x6-hal = "0.1.0"
-- stm32l4-stm32hal = "0.13.1"
+[dependencies.stm32l4xx-hal]
+version = "0.6"
+features = ["stm32l4x6"] 
