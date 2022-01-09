@@ -1,0 +1,27 @@
+probe run
+x discovery
+- sfdq
+- nucleo
+- arduino
+
+board crate for sfdq
+
+
+
+
+
+
+sfdq 446retp
+- STM32F446RETx (p)
+- stm32f446-hal = "0.0.1"
+	fails for feature const_fn
+
+
+arduino nano
+- atMEGA328p
+
+nucleo-64 4464ret6u
+- STM32F446RETx
+
+nucleo-64L476rgt6u
+- STM32L476RGTx
