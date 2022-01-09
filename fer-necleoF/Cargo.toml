@@ -1,6 +1,6 @@
 [package]
 authors = ["johnt7 <johnt7_@hotmail.com>"]
-name = "fer-sfdq"
+name = "fer-nucleof"
 edition = "2018"
 version = "0.1.0"
 
@@ -18,10 +18,7 @@ cortex-m-rt = "*"
 defmt = "*"
 defmt-rtt = "0.3.0"
 panic-probe = { version = "0.3.0", features = ["print-defmt"] }
-# TODO(4) enter your HAL here
-# some-hal = "1.2.3"
-# For the stm32f303vc mcu
-# stm32f4xx-hal = "0.11.1"
+
 
 [dependencies.stm32f4xx-hal]
 version = "0.11"

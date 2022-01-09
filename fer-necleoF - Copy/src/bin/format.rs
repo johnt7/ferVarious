@@ -1,7 +1,7 @@
 #![no_main]
 #![no_std]
 
-use fer_sfdq as _; // global logger + panicking-behavior + memory layout
+use fer_nucleof as _; // global logger + panicking-behavior + memory layout
 use defmt::Format; // <- derive attribute
 
 #[derive(Format)]
@@ -25,5 +25,5 @@ fn main() -> ! {
     let x = 42;
     defmt::println!("x={=u8}", x);
 
-    fer_sfdq::exit()
+    fer_nucleof::exit()
 }

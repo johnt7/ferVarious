@@ -1,7 +1,7 @@
 #![no_main]
 #![no_std]
 
-use fer_sfdq as _; // global logger + panicking-behavior + memory layout
+use fer_nucleof as _; // global logger + panicking-behavior + memory layout
 
 #[cortex_m_rt::entry]
 fn main() -> ! {
@@ -13,5 +13,5 @@ fn main() -> ! {
     defmt::debug!("debug");
     defmt::error!("error");
 
-    fer_sfdq::exit()
+    fer_nucleof::exit()
 }

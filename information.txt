@@ -13,6 +13,7 @@ board crate for sfdq
 
 sfdq 446retp
 - STM32F446RETx (p)
+- stm32f4xx-hal = "0.11.1"
 - stm32f446-hal = "0.0.1"
 	fails for feature const_fn
 
@@ -20,8 +21,11 @@ sfdq 446retp
 arduino nano
 - atMEGA328p
 
-nucleo-64 4464ret6u
+nucleo-64 446ret6u
 - STM32F446RETx
+- stm32f4xx-hal = "0.11.1"
 
 nucleo-64L476rgt6u
 - STM32L476RGTx
+- stm32l4x6-hal = "0.1.0"
+- stm32l4-stm32hal = "0.13.1"
