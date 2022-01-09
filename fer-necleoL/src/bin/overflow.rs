@@ -1,12 +1,12 @@
 #![no_main]
 #![no_std]
 
-use fer_nucleof as _; // global logger + panicking-behavior + memory layout
+use fer_nucleol as _; // global logger + panicking-behavior + memory layout
 
 #[cortex_m_rt::entry]
 fn main() -> ! {
     ack(10, 10);
-    fer_nucleof::exit()
+    fer_nucleol::exit()
 }
 
 fn ack(m: u32, n: u32) -> u32 {

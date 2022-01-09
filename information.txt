@@ -1,7 +1,8 @@
 probe run
 x discovery
 - sfdq
-- nucleo
+x nucleof
+- nucleol
 - arduino
 
 board crate for sfdq
